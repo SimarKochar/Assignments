@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Grocery Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color:brown;
+            text-decoration-line: underline;
+            text-decoration-color:chocolate;
+        }
+
+        p {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: 2px solid #333;
+            background-color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #333;
+            color: #259930;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin: 20px auto;
+            width: 300px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        button {
+            width: 320px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Static grocery store</h1>
+    <p>Welcome to our Static Grocery Store, your one-stop destination for all your daily essentials. Our store offers a wide
+        range of fresh produce, dairy products, pantry staples, and household essentials to ensure a convenient shopping
+        experience. With carefully curated products and easy navigation, we aim to bring you the best in quality and
+        affordability.</p>
+    <p>At Static Grocery Store, we prioritize customer satisfaction by providing a seamless shopping experience with clear
+        product descriptions and organized categories. Whether you're looking for organic vegetables, premium grains, or
+        ready-to-eat snacks, our store is designed to cater to all your grocery needs. Shop with confidence and enjoy the
+        ease of finding everything in one place!</p>
+    <div class="image-container">
+        <img src="Sample.jpg" alt="Sample Image">
+        <div class="caption">This is a fruits and vegetables stall</div>
+    </div>
+    <p> I have also included a styled button:</p>
+    <button class="button">Click Me</button>
+
+    <p>Here is a table with some sample grocery items:</p>
+    <table>
+        <tr>
+            <th>Fruits</th>
+            <th>Vegetables</th>
+            <th>Others</th>
+        </tr>
+        
+        <tr>
+            <td>Apple</td>
+            <td>Spinach</td>
+            <td>Milk</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>Onion</td>
+            <td>Cereals</td>
+        </tr>
+    </table>
+    <p>Fill out the form below to receive updates on our latest offers and promotions:</p>
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
